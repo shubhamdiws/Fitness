@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/login"
+                    android:title="@string/Profile"/>
+
+                <item
+                        android:id="@+id/GotoExer"
+                    android:icon="@drawable/current"
+                        android:title="Current Exercise"/>
+                <item
+                        android:id="@+id/Aboutus"
+                    android:icon="@drawable/info"
+                        android:title="About Us"/>
+                <item
+                        android:id="@+id/Share"
+                    android:icon="@drawable/shareapp"
+                        android:title="Share"/>
+                <item
+                        android:id="@+id/Rate"
+                    android:icon="@drawable/rateus"
+                        android:title="Rate Us"/>
+                <item
+                    android:id="@+id/logout"
+                    android:icon="@drawable/logout"
+                    android:title="@string/Log_Out"/>
+                <item
+                        android:id="@+id/bellreminder"
+                        android:icon="@drawable/bell"
+                        android:title="SetWaterReminder"/>
+
+        </group>
+</menu>

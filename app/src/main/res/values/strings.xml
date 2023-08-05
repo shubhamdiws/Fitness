@@ -1,0 +1,50 @@
+<resources>
+
+    <string name="app_name">Feel Fit</string>
+    <string name="reset">Reset</string>
+    <string name="start">Start</string>
+    <string name="stop">stop</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="nav_open">open</string>
+    <string name="nav_close">close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Profile">Profile</string>
+    <string name="Log_Out">Log Out</string>
+    <string name="VEG">VEG</string>
+    <string name="NON_VEG">NON_VEG</string>
+    <string name="VegDietPlan">VegDietPlan</string>
+    <string name="nonVegDietPlan">nonVegDietPlan</string>
+
+    <string name="intermitentfasting">Intermitent fasting is medical proven Technique for losing weight faster  It include eating perdiocally like 8 hour eating and 16 hour fasting . Or eating 5 days a week and fasting for 2 days or have calorie not more than 600 meal
+        During your eating periods, “eating normally” does not mean going crazy. Research shows that you’re not  likely to lose weight or get healthier if you pack your feeding times with high-calorie junk food, super-sized fried items and treats.
+
+    </string>
+    <string name="_10_kilograms_of_fat_has_77_000_calories_if_you_consume_an_additional_2600_calories_each_day_for_one_month_you_will_gain_10_kg_if_you_consume_6000_6500_calories_per_day_for_one_month_you_will_gain_10_kg_if_you_are_180_cm_tall_and_weigh_75_80_kilograms">-10 kilograms of fat has 77,000 calories. If you consume an additional 2600 calories each day for one month, you will gain 10 kg. If you consume 6000–6500 calories per day for one month, you will gain 10 kg if you are 180 cm tall and weigh 75–80 kilograms.</string>
+    <string name="chicken">CHICKEN</string>
+    <string name="welcome">WELCOME</string>
+    <string name="email_address">EMAIL ADDRESS</string>
+    <string name="bmi_is_an_estimate_of_body_fat">BMI is an estimate of body fat</string>
+    <string name="calculate_bmi">CALCULATE BMI</string>
+    <string name="fruits">FRUITS</string>
+    <string name="apple_pear_orange_peach_nmedium_nbanana_1_small_about6_long_ngrapefruit_half_of_a_medium_ngrape_16_nkiwifruit_1_medium_nmango_half_of_a_medium_nmelon_half_inch_thick_wedge_of_sliced_watermelon_npineapple_1_4_of_a_medium_strawberry_4_large">-Apple, Pear, Orange, Peach:\nMedium\nBanana: 1 small (about6\' long)\nGrapefruit: Half of a medium.\nGrape: 16.\nKiwifruit: 1 medium\nMango: Half of a medium\nMelon: Half-inch thick wedge of sliced watermelon. \nPineapple: 1/4 of a medium Strawberry: 4 large.</string>
+    <string name="home">Home</string>
+    <string name="home_hai_be">Home hai be</string>
+    <string name="dietplan">DietPlan</string>
+    <string name="select_time_interval_for_water">Select Time Interval For Water</string>
+    <string name="selected_time_format">%1$s:%2$s</string>
+    <string name="time_prefix">>></string>
+
+    <string-array name="Time">
+        <item>5 </item>
+        <item>10 </item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+
+
+    </string-array>
+
+
+</resources>

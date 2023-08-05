@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_res2"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:layout_marginHorizontal="15dp"
+        android:backgroundTint="@color/lightblue"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="6dp"
+        app:cardCornerRadius="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageNonVegD"
+                android:layout_width="85dp"
+                android:layout_height="80dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="2dp"
+                android:layout_marginBottom="30dp"
+                android:padding="10dp"
+                android:src="@drawable/crowfile" />
+
+            <TextView
+                android:id="@+id/CalorieNonveg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="29dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/imageNonVegD"
+                android:hint="calorie"
+                android:textColor="@color/white"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/nameNonveg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/CalorieNonveg"
+                android:layout_marginLeft="51dp"
+                android:layout_marginTop="7dp"
+                android:layout_toRightOf="@+id/imageNonVegD"
+                android:hint="name"
+                android:textColor="@color/white"
+                android:textSize="30sp" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

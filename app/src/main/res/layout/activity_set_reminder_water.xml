@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SetReminderWater">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_time_interval_for_water"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bg_setreminder"
+       android:layout_gravity="center"
+        android:textSize="24sp"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/drinkwater"
+        android:layout_marginTop="20dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <Button
+            android:id="@+id/btnTimepick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="Pick Time"
+            android:textColor="@color/white"
+            android:layout_marginTop="57dp"
+            android:textSize="15sp"
+            android:backgroundTint="#129C8F"
+            android:fontFamily="@font/merriweatherblack"
+            tools:ignore="HardcodedText"/>
+
+        <NumberPicker
+            android:layout_toRightOf="@+id/btnTimepick"
+            android:id="@+id/numpicker1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="50dp"
+        android:hint="0"
+        android:id="@+id/texvShow"/>
+
+
+
+
+
+
+
+</LinearLayout>

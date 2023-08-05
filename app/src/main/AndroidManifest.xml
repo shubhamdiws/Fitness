@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.feelfit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.hardware.sensor.proximity" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="FeelFit"
+        android:roundIcon="@drawable/ic_launcher_background"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FeelFit"
+        tools:targetApi="31">
+        <activity
+            android:name=".DetailActivityOfExercises"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".gridview_item"
+            android:exported="false" />
+        <activity
+            android:name=".ExerciseLosing"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityforDietF"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".custom_spinner"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SetReminderWater"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".OtpView"
+            android:exported="false" />
+        <activity
+            android:name=".phoneNumber"
+            android:exported="false" />
+        <activity
+            android:name=".OtpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".forgetPassword"
+            android:exported="false" />
+        <activity
+            android:name=".almondschart"
+            android:exported="false" />
+        <activity
+            android:name=".vegechartGain"
+            android:exported="false" />
+        <activity
+            android:name=".fruitsChartGain"
+            android:exported="false" />
+        <activity
+            android:name=".meatDietChart"
+            android:exported="false" />
+        <activity
+            android:name=".eggschart"
+            android:exported="false" />
+        <activity
+            android:name=".DietPlan.DietPlanTwo"
+            android:exported="false" />
+        <activity
+            android:name=".chickenchart"
+            android:exported="false" />
+        <activity
+            android:name=".customSpinner"
+            android:exported="false" />
+        <activity
+            android:name=".IntermittentPlan"
+            android:exported="false" />
+        <activity
+            android:name=".Reminder"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DietPlanGain.proteinchart"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DietPlanGain.yogurtchart"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DietPlanGain.ricechart"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DietPlanGain.vegetablechart"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Description"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DietPlanGain.fruitschart"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NormalExercise.Normal5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NormalExercise.Normal4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NormalExercise.Normal3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NormalExercise.Normal2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NormalExercise.Normal1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".item_normal_exercise"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sensors.ProximitySensor"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NormalExercise.NormalActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard.ShowProfileAct"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GainingExercises.gaining6"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GainingExercises.gaining5"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GainingExercises.gaining4"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GainingExercises.gaining3"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GainingExercises.gaining2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GainingExercises.gaining1"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".item_gaining_exercise"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GainingExercises.Exercise2"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DietPlanGain.DietPlanOne"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            tools:ignore="DuplicateActivity" />
+        <activity
+            android:name=".timer"
+            android:exported="false" />
+        <activity
+            android:name=".LosingExercise.Exercise_details_six"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LosingExercise.Exercise_details_five"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LosingExercise.Exercise_details_four"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LosingExercise.Exercise_details_three"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sensors.showSteps"
+            android:exported="false" />
+        <activity
+            android:name=".LosingExercise.Exercise_details_two"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LosingExercise.Exercise_details_one"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LosingExercise.ExerciseI"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard.ResultBMI"
+            android:exported="false" />
+        <activity
+            android:name=".Dashboard.BmiCalculator"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Dashboard.Dashboard"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Credentials.Login"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Credentials.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Credentials.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".water" />
+    </application>
+
+</manifest>
